@@ -56,7 +56,7 @@ The reverse engineering was done by analyzing the Bluetooth Low Energy communica
 > > - Handle: `0x006c`
 > > - UUID: `0000ffd1-0000-1000-8000-00805f9b34fb`
 
-> > **Characteristic**: Unknown
+> > **Characteristic**: Unknown -> MAC Adress of Device
 > > - Handle: `0x006c`
 > > - UUID: `0000ffd2-0000-1000-8000-00805f9b34fb`
 
