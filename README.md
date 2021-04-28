@@ -4,15 +4,15 @@ The reverse engineering was done by analyzing the Bluetooth Low Energy communica
 
 ### What happend already:
 - dumped the bluetooth traffic for each function into it's own seperate file
+- MAC: `48:87:2D:1F:DB:EB`
 
 ---
 
-### Informations:
-MAC: `48:87:2D:1F:DB:EB`
+## Bluetooth
 
-
-## Bluetooth Services/Characteristics
-- Primary Service (`0xda5c`): Device Information - UUID: `0000180a-0000-1000-8000-00805f9b34fb`
+### Primary Service (Handle: `0xda5c`)
+Device Information  
+UUID: `0000180a-0000-1000-8000-00805f9b34fb`
   - Characteristic (`0x006c`): Serial Number String - UUID: `00002a25-0000-1000-8000-00805f9b34fb`  
   - Characteristic (`0x006c`): Firmware Revision String - UUID: `00002a26-0000-1000-8000-00805f9b34fb`  
 
