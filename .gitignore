@@ -1,0 +1,8 @@
+!.gitignore
+!*.md
+
+.storage
+.cloud
+.google.token
+.vscode
+.DS_Store
