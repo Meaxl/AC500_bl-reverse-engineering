@@ -13,9 +13,9 @@ MAC: `48:87:2D:1F:DB:EB`
 
 ## Bluetooth Services/Characteristics
 
-1. Primary Service (`0xda5c`): Device Information - UUID: `0000180a-0000-1000-8000-00805f9b34fb`  
-   Characteristic (`0x006c`): Serial Number String - UUID: `00002a25-0000-1000-8000-00805f9b34fb`  
-   Characteristic (`0x006c`): Firmware Revision String - UUID: `00002a26-0000-1000-8000-00805f9b34fb`  
+- Primary Service (`0xda5c`): Device Information - UUID: `0000180a-0000-1000-8000-00805f9b34fb`  
+    Characteristic (`0x006c`): Serial Number String - UUID: `00002a25-0000-1000-8000-00805f9b34fb`  
+    Characteristic (`0x006c`): Firmware Revision String - UUID: `00002a26-0000-1000-8000-00805f9b34fb`  
 
 
 2. Primary Service (`0xda5c`): Unknown - UUID: `0000ffa0-0000-1000-8000-00805f9b34fb`
