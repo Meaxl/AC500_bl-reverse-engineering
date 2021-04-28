@@ -10,22 +10,72 @@ The reverse engineering was done by analyzing the Bluetooth Low Energy communica
 
 ## Bluetooth
 
-### Primary Service (Handle: `0xda5c`)
-Device Information  
-UUID: `0000180a-0000-1000-8000-00805f9b34fb`
-  - Characteristic (`0x006c`): Serial Number String - UUID: `00002a25-0000-1000-8000-00805f9b34fb`  
-  - Characteristic (`0x006c`): Firmware Revision String - UUID: `00002a26-0000-1000-8000-00805f9b34fb`  
+> **Primary Service**: Device Information
+> - Handle: `0xda5c`
+> - UUID: `0000180a-0000-1000-8000-00805f9b34fb`
+> > **Characteristic**: Serial Number String
+> > - Handle: `0x006c`
+> > - UUID: `00002a25-0000-1000-8000-00805f9b34fb`  
 
+> > **Characteristic**: Firmware Revision String
+> > - Handle: `0x006c`
+> > - UUID: `00002a26-0000-1000-8000-00805f9b34fb`
 
-- Primary Service (`0xda5c`): Unknown - UUID: `0000ffa0-0000-1000-8000-00805f9b34fb`
-  - Characteristic (`0x006c`): Unknown - UUID: `000ef01-0000-1000-8000-00805f9b34fb`
-  - Characteristic (`0x006c`): Unknown - UUID: `0000ef02-0000-1000-8000-00805f9b34fb`
-    * Descriptor (`0x55b9`): Client Characteristic Configuration - UUID: `00002902-0000-1000-8000-00805f9b34fb`
-  - Characteristic (`0x006c`): Unknown - UUID: `0000ef03-0000-1000-8000-00805f9b34fb`
-    * Descriptor (`0x55b9`): Client Characteristic Configuration - UUID: `00002902-0000-1000-8000-00805f9b34fb`
-  - Characteristic (`0x006c`): Unknown - UUID: `0000ef04-0000-1000-8000-00805f9b34fb`
-    * Descriptor (`0x55b9`): Client Characteristic Configuration - UUID: `00002902-0000-1000-8000-00805f9b34fb`
+> **Primary Service**: Unkown
+> - Handle: `0xda5c`
+> - UUID: `0000ffa0-0000-1000-8000-00805f9b34fb`
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `000ef01-0000-1000-8000-00805f9b34fb`
 
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `0000ef02-0000-1000-8000-00805f9b34fb`
+> > > **Descriptor**: Client Characteristic Configuration
+> > > - Handle: `0x55b9`
+> > > - UUID: `00002902-0000-1000-8000-00805f9b34fb`
 
-- Primary Service (Handle `0xda5c`): Vendor specific - UUID: `0000d0ff-3c17-d293-8e48-14fe2e4da212`
+> > **Characteristic**: Unknown
+> > - Handle:`0x006c`
+> > - UUID: `0000ef03-0000-1000-8000-00805f9b34fb`
+> > > **Descriptor**: Client Characteristic Configuration
+> > > - Handle: `0x55b9`
+> > > - UUID: `00002902-0000-1000-8000-00805f9b34fb`
 
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `0000ef04-0000-1000-8000-00805f9b34fb`
+> > > **Descriptor**: Client Characteristic Configuration
+> > > - Handle: `0x55b9`
+> > > - UUID: `00002902-0000-1000-8000-00805f9b34fb`
+
+> **Primary Service**: Vendor specific
+> - Handle: `0xda5c`
+> - UUID: `0000d0ff-3c17-d293-8e48-14fe2e4da212`
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `0000ffd1-0000-1000-8000-00805f9b34fb`
+
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `0000ffd2-0000-1000-8000-00805f9b34fb`
+
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `0000ffd3-0000-1000-8000-00805f9b34fb`
+
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `0000ffd4-0000-1000-8000-00805f9b34fb`
+
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `0000ffd5-0000-1000-8000-00805f9b34fb`
+
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `0000fff1-0000-1000-8000-00805f9b34fb`
+
+> > **Characteristic**: Unknown
+> > - Handle: `0x006c`
+> > - UUID: `0000fff2-0000-1000-8000-00805f9b34fb`
