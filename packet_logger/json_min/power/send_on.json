@@ -1,0 +1,692 @@
+[
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:31:16.536000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551876.536000000",
+          "frame.time_delta": "0.160000000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "1055215.305000000",
+          "frame.number": "17",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:01:05:ee"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:31:20.476000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551880.476000000",
+          "frame.time_delta": "0.079000000",
+          "frame.time_delta_displayed": "3.940000000",
+          "frame.time_relative": "1055219.245000000",
+          "frame.number": "93",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:00:04:ee"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:31:22.944000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551882.944000000",
+          "frame.time_delta": "0.070000000",
+          "frame.time_delta_displayed": "2.468000000",
+          "frame.time_relative": "1055221.713000000",
+          "frame.number": "115",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:01:05:ee"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:31:27.195000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551887.195000000",
+          "frame.time_delta": "0.302000000",
+          "frame.time_delta_displayed": "4.251000000",
+          "frame.time_relative": "1055225.964000000",
+          "frame.number": "347",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:00:04:ee"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:31:34.201000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551894.201000000",
+          "frame.time_delta": "0.066000000",
+          "frame.time_delta_displayed": "7.006000000",
+          "frame.time_relative": "1055232.970000000",
+          "frame.number": "474",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:01:05:ee"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:31:58.007000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551918.007000000",
+          "frame.time_delta": "0.153000000",
+          "frame.time_delta_displayed": "23.806000000",
+          "frame.time_relative": "1055256.776000000",
+          "frame.number": "783",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:00:04:ee"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:31:59.739000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551919.739000000",
+          "frame.time_delta": "0.268000000",
+          "frame.time_delta_displayed": "1.732000000",
+          "frame.time_relative": "1055258.508000000",
+          "frame.number": "800",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:01:05:ee"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:32:01.091000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551921.091000000",
+          "frame.time_delta": "0.237000000",
+          "frame.time_delta_displayed": "1.352000000",
+          "frame.time_relative": "1055259.860000000",
+          "frame.number": "814",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:00:04:ee"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:32:01.914000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551921.914000000",
+          "frame.time_delta": "0.041000000",
+          "frame.time_delta_displayed": "0.823000000",
+          "frame.time_relative": "1055260.683000000",
+          "frame.number": "872",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:01:05:ee"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-04-27",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "118",
+          "frame.time": "Apr 27, 2021 21:32:02.908000000 CEST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1619551922.908000000",
+          "frame.time_delta": "0.015000000",
+          "frame.time_delta_displayed": "0.994000000",
+          "frame.time_relative": "1055261.677000000",
+          "frame.number": "883",
+          "frame.len": "19",
+          "frame.cap_len": "19",
+          "frame.marked": "0",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:packetlogger:bthci_acl:btl2cap:btatt",
+          "frame.coloring_rule.name": "ATT",
+          "frame.coloring_rule.string": "btatt"
+        },
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "packetlogger": {
+          "packetlogger.type": "0x00000002"
+        },
+        "bthci_acl": {
+          "bthci_acl.chandle": "0x00000042",
+          "bthci_acl.pb_flag": "0",
+          "bthci_acl.bc_flag": "0",
+          "bthci_acl.length": "14",
+          "bthci_acl.data": "",
+          "_ws.expert": {
+            "bthci_acl.invalid_session": "",
+            "_ws.expert.message": "Frame is out of any \"connection handle\" session",
+            "_ws.expert.severity": "8388608",
+            "_ws.expert.group": "150994944"
+          },
+          "bthci_acl.src.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.src.name": "",
+          "bthci_acl.src.role": "0",
+          "bthci_acl.dst.bd_addr": "00:00:00:00:00:00",
+          "bthci_acl.dst.name": "",
+          "bthci_acl.dst.role": "0",
+          "bthci_acl.mode": "-1"
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000012",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000012"
+          },
+          "btatt.handle": "0x0000000f",
+          "btatt.value": "aa:03:01:00:00:04:ee"
+        }
+      }
+    }
+  }
+]
