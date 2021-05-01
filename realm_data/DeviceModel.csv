@@ -1,0 +1,2 @@
+macAddress,deviceId,deviceClassInt,firmware,lastSync,timeAdded,name,user,electricityLevel,armSideInt,automSleepStartTime,automSleepEndTime,automSleepOn,sleepReminderOn,heartRateTrackingOn,realMacAddress
+48:87:2d:1f:db:eb,9B86CA68-1637-72AC-DFE9-92F70F417492,10,"Jan 25 2018","2021-04-29 21:14:24 +0000",<null>,AC500,-1,255,0,<null>,<null>,false,true,true,48872d1fdbeb

@@ -1,0 +1,2 @@
+userId,email,firstName,lastName,isMale,birthDate,signUpDate,size,weight,imageUrl,imageLocalPath,impedance5Khz,impedance50Khz,activityLevel,stepSize,userSlot,updated,slotRegistered
+79E23090-24AF-4C0F-A2BE-7AF58905628E,maxiiwug@live.de,Maximilian,,true,"1996-04-04 22:00:00 +0000","2021-04-05 09:46:26 +0000",185,0,https://shcprod.blob.core.windows.net/images/55b2bfa1-19ea-4a2d-b3b4-1f59fea4dadc.jpg,/var/mobile/Containers/Data/Application/89E6169E-ED81-48E7-A8E9-17F8CFDF2E02/Documents/profilePic.jpg,0,0,3,70,-1,1617655540396,false
