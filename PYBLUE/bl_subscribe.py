@@ -56,12 +56,25 @@ def parse_ef04(data: bytes):
 
     # return values
 
-def notification_handler_ef02(sender, data):
+def OLD_notification_handler_ef02(sender, data):
     print(f"\n[EF02] Raw: {data.hex()}")
 
     parsed_ef02 = parse_ef02(data)
     if parsed_ef02:
         print(f"[EF02] Parsed: {parsed_ef02}")
+
+last_ef02 = None
+
+def notification_handler_ef02(sender,data):
+    global last_ef02
+
+    parsed_ef02 = parse_ef02(data)
+    if not parsed_ef02:
+        return
+
+    if parsed_ef02 != last_ef02:
+        print(f"\n[EF02] CHANGE: {parsed_ef02}")
+        last_ef02 = parse_ef02
 
 def notification_handler_ef03(sender, data):
     print(f"\n[EF03] Raw: {data.hex()}")
