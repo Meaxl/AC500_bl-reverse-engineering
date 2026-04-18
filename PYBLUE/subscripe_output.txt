@@ -1,0 +1,35 @@
+Notify EF02 aktiviert - warte auf Daten...
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001500ce10e002c2ebee
+Notify EF03 aktiviert - warte auf Daten...
+Notify EF04 aktiviert - warte auf Daten...
+Notify von 0000ef04-0000-1000-8000-00805f9b34fb (Handle: 22): Vendor specific: 01
+Notify von 0000ef04-0000-1000-8000-00805f9b34fb (Handle: 22): Vendor specific: 002800d0000e00ce
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001500ce10e002c2ebee
+Notify von 0000ef04-0000-1000-8000-00805f9b34fb (Handle: 22): Vendor specific: ff
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001500ce10e002c2ebee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001500ce10e002c2ebee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083001200ce10e002c2e8ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000d00ce10e002c2e3ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000c00ce10e002c2e2ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000c00ce10e002c2e2ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000c00ce10e002c2e2ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000c00ce10e002c2e2ee
+Notify von 0000ef02-0000-1000-8000-00805f9b34fb (Handle: 16): Vendor specific: aa0da021030083000c00ce10e002c2e2ee
