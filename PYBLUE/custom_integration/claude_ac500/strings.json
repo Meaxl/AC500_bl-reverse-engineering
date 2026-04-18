@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Soehnle Airfresh Clean Connect 500",
+        "description": "Enter the Bluetooth address of your device.",
+        "data": {
+          "address": "Bluetooth Address (macOS UUID)",
+          "name": "Device Name"
+        }
+      }
+    },
+    "error": {},
+    "abort": {
+      "already_configured": "Device is already configured."
+    }
+  }
+}
