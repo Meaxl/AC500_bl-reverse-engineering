@@ -9,7 +9,7 @@
 ## UUIDs
 
 > **WRITE**:
-> - EF01: `Send Commands`
+> > - EF01: `Send Commands`
 > > - UUID: `0000EF01-0000-1000-8000-00805F9B34FB`
 
 > **NOTIFICATION SERVICES**:
