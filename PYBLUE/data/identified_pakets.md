@@ -15,8 +15,10 @@
 > **NOTIFICATION SERVICES**:
 > - EF02: `Live-stream data?`
 > > - UUID: `0000EF02-0000-1000-8000-00805F9B34FB`
+
 > - EF03: `????`
 > > - UUID: `0000EF03-0000-1000-8000-00805F9B34FB`
+
 > - EF04: `Multiplexed channel of raw sensor data?`
 > > - UUID: `0000EF04-0000-1000-8000-00805F9B34FB`
 
