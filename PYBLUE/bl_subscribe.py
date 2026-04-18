@@ -1,4 +1,5 @@
 import asyncio
+import time
 from bleak import BleakClient
 
 ble_address = "0CA7B1B5-927E-BF3D-5090-7488C2D34676"
@@ -73,23 +74,23 @@ def notification_handler_ef02(sender,data):
         return
 
     if parsed_ef02 != last_ef02:
-        print(f"\n[EF02] CHANGE: {parsed_ef02}")
+        print(f"\n{time.strftime('%H:%M:%S')} → [EF02] CHANGE: {parsed_ef02}")
         last_ef02 = parse_ef02
 
 def notification_handler_ef03(sender, data):
     print(f"\n[EF03] Raw: {data.hex()}")
 
 def notification_handler_ef04(sender, data):
-    print(f"\n[EF04] Raw: {data.hex()}")
+    print(f"\n{time.strftime('%H:%M:%S')} → [EF04] Raw: {data.hex()}")
 
     if len(data) <= 2:
-        print("[EF04] Event Frame:", data.hex())
+        print(f"{time.strftime('%H:%M:%S')} → [EF04] Event Frame:", data.hex())
         return
 
     parsed_ef04 = parse_ef04(data)
 
     if parsed_ef04:
-        print(f"[EF04] Anzahl Sensoren: {parsed_ef04['count']}")
+        print(f"{time.strftime('%H:%M:%S')} → [EF04] Anzahl Sensoren: {parsed_ef04['count']}")
         for i, (v, r) in enumerate(parsed_ef04["pairs"]):
             print(f"  Sensor {i}: value={v}, ref={r}")
     ########## WWOOOOOOOrRRKING
