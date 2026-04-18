@@ -1,0 +1,26 @@
+# CHARACTERISITCAS & INFORMATION
+FFA0            PRIMARY SERVICE
+EF01            COMANNDOS
+EF02            Live-Stream Daten?
+EF03            ????
+EF04            Multiplexed Channel?
+
+48:87:2d:1f:db:eb   AC500 MAC Adresse
+
+# IDENTIFIED COMMANDS
+aa0301000105ee      EINSCHALTEN
+aa0301000004ee      AUSSCHALTEN
+
+aa0303000107ee      UV-C EIN
+aa0303000006ee      UV-C AUS
+
+aa030600010aee      NACHT EIN
+aa03af0001b3ee      NACHT AUS
+
+aa0302000005ee      Gebläse 1
+aa0302000106ee      Gebläse 2
+aa0302000207ee      Gebläse 3
+aa0302000308ee      Gebläse 4
+
+aa0305000109ee      Gebläse Automatik AN
+aa0305000008ee      Gebläse Automatik AUS
