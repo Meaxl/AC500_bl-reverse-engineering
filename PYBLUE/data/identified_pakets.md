@@ -1,38 +1,49 @@
-# CHARACTERISITCAS & INFORMATION
-FFA0: PRIMARY SERVICE
+# Gathered Information
 
-EF01: COMANNDOS
+### MAC/DEVICE Adresse
+- MAC: `48:87:2D:1F:DB:EB`
+- OSX: `0CA7B1B5-927E-BF3D-5090-7488C2D34676`
 
-EF02: Live-Stream Daten?
+---
 
-EF03: ????
+## UUIDs
 
-EF04: Multiplexed Channel?
+> **WRITE**:
+> - EF01: `Send Commands`
+> > - UUID: `0000EF01-0000-1000-8000-00805F9B34FB`
 
-48:87:2d:1f:db:eb: AC500 MAC Adresse
+> **NOTIFICATION SERVICES**:
+> - EF02: `Live-stream data?`
+> > - UUID: `0000EF02-0000-1000-8000-00805F9B34FB`
 
+> - EF03: `????`
+> > - UUID: `0000EF03-0000-1000-8000-00805F9B34FB`
 
-# IDENTIFIED COMMANDS
-aa0301000105ee: EINSCHALTEN
+> - EF04: `Multiplexed channel of raw sensor data?`
+> > - UUID: `0000EF04-0000-1000-8000-00805F9B34FB`
 
-aa0301000004ee: AUSSCHALTEN
+---
 
-aa0303000107ee: UV-C EIN
+## IDENTIFIED COMMANDs
 
-aa0303000006ee: UV-C AUS
+> **TURN ON/OFF**:
+> - ON: `aa0301000105ee`
+> - OFF: `aa0301000004ee`
 
-aa030600010aee: NACHT EIN
+> **UV-C ON/OFF**:
+> - ON: `aa0303000107ee`
+> - OFF: `aa0303000006ee`
 
-aa03af0001b3ee: NACHT AUS
+> **NIGHT ON/OFF**:
+> - ON: `aa030600010aee`
+> - OFF: `aa03af0001b3ee`
 
-aa0302000005ee: Gebläse 1
+> **FAN SPEEDs**:
+> - SPEED1: `aa0302000005ee`
+> - SPEED2: `aa0302000106ee`
+> - SPEED3: `aa0302000207ee`
+> - SPEED4: `aa0302000308ee`
 
-aa0302000106ee: Gebläse 2
-
-aa0302000207ee: Gebläse 3
-
-aa0302000308ee: Gebläse 4
-
-aa0305000109ee: Gebläse Automatik AN
-
-aa0305000008ee: Gebläse Automatik AUS
+> **FAN SPEED AUTO**:
+> - ON: `aa0305000109ee`
+> - OFF: `aa0305000008ee`
