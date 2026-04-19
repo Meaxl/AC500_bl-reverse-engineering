@@ -1,0 +1,431 @@
+=== BLE Analyze Session 2026-04-19 18:03:35 ===
+18:03:38 Verbunden & Notify aktiv.
+18:03:38 [EF04] △ CHANGE  01  (1B)
+  (first packet)
+18:03:38 [EF02] △ CHANGE  aa0da021000081000a00bf10e002d1dbee  (17B)
+  (first packet)
+  cmd=a021  payload=000081000a00bf10e002d1db  sum=b6
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=81(129)
+    [3]=00(  0)
+    [4]=0a( 10)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=db(219)
+18:03:38 [EF04] △ CHANGE  003a00d5002800d3000a00c1  (12B)
+  byte[00]: 01 → 00
+  byte[01]: -- → 3a
+  byte[02]: -- → 00
+  byte[03]: -- → d5
+  byte[04]: -- → 00
+  byte[05]: -- → 28
+  byte[06]: -- → 00
+  byte[07]: -- → d3
+  byte[08]: -- → 00
+  byte[09]: -- → 0a
+  byte[10]: -- → 00
+  byte[11]: -- → c1
+  uint16_be: [58, 213, 40, 211, 10, 193]
+  uint16_le: [14848, 54528, 10240, 54016, 2560, 49408]
+  bytes_dec: [0, 58, 0, 213, 0, 40, 0, 211, 0, 10, 0, 193]
+18:03:38 [EF04] △ CHANGE  ff  (1B)
+  byte[00]: 00 → ff
+  byte[01]: 3a → --
+  byte[02]: 00 → --
+  byte[03]: d5 → --
+  byte[04]: 00 → --
+  byte[05]: 28 → --
+  byte[06]: 00 → --
+  byte[07]: d3 → --
+  byte[08]: 00 → --
+  byte[09]: 0a → --
+  byte[10]: 00 → --
+  byte[11]: c1 → --
+18:03:38 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:03:39 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:03:39 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:03:40 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:03:40 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:03:41 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:03:41 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:03:42 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+
+────────────────────────────────────────────────────
+18:03:42 ► SEND: Night Mode ON  (aa030600010aee)
+────────────────────────────────────────────────────
+18:03:42 [EF02] △ CHANGE  aa0da0210000c1000a00bf10e002d11bee  (17B)
+  byte[06]: 81 → c1
+  byte[15]: db → 1b
+  cmd=a021  payload=0000c1000a00bf10e002d11b  sum=36
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=c1(193)
+    [3]=00(  0)
+    [4]=0a( 10)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=1b( 27)
+18:03:43 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:43 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:44 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:44 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:45 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:45 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:46 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:46 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:47 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:47 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:48 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:48 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:49 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:49 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:50 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:50 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:51 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:51 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:03:52 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+
+18:04:02 ⚠ Kein Notify seit >10s – reconnecting...
+18:04:02 Reconnect in 2s...
+18:04:06 Verbunden & Notify aktiv.
+18:04:06 [EF02] △ CHANGE  aa0da021000081000a00bf10e002d1dbee  (17B)
+  byte[06]: c1 → 81
+  byte[15]: 1b → db
+  cmd=a021  payload=000081000a00bf10e002d1db  sum=b6
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=81(129)
+    [3]=00(  0)
+    [4]=0a( 10)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=db(219)
+18:04:06 [EF04] △ CHANGE  01  (1B)
+  byte[00]: ff → 01
+18:04:06 [EF04] △ CHANGE  003a00d5002800d3000a00c1  (12B)
+  byte[00]: 01 → 00
+  byte[01]: -- → 3a
+  byte[02]: -- → 00
+  byte[03]: -- → d5
+  byte[04]: -- → 00
+  byte[05]: -- → 28
+  byte[06]: -- → 00
+  byte[07]: -- → d3
+  byte[08]: -- → 00
+  byte[09]: -- → 0a
+  byte[10]: -- → 00
+  byte[11]: -- → c1
+  uint16_be: [58, 213, 40, 211, 10, 193]
+  uint16_le: [14848, 54528, 10240, 54016, 2560, 49408]
+  bytes_dec: [0, 58, 0, 213, 0, 40, 0, 211, 0, 10, 0, 193]
+18:04:06 [EF04] △ CHANGE  ff  (1B)
+  byte[00]: 00 → ff
+  byte[01]: 3a → --
+  byte[02]: 00 → --
+  byte[03]: d5 → --
+  byte[04]: 00 → --
+  byte[05]: 28 → --
+  byte[06]: 00 → --
+  byte[07]: d3 → --
+  byte[08]: 00 → --
+  byte[09]: 0a → --
+  byte[10]: 00 → --
+  byte[11]: c1 → --
+18:04:06 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:07 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:07 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:08 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:08 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:09 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+
+────────────────────────────────────────────────────
+18:04:09 ► SEND: Night Mode OFF  (aa03af0001b3ee)
+────────────────────────────────────────────────────
+18:04:09 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:10 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:10 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:11 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:11 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:12 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:12 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:13 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:13 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:14 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:14 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:15 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:15 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:16 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:16 [EF02] △ CHANGE  aa0da021000081000b00bf10e002d1dcee  (17B)
+  byte[08]: 0a → 0b
+  byte[15]: db → dc
+  cmd=a021  payload=000081000b00bf10e002d1dc  sum=b8
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=81(129)
+    [3]=00(  0)
+    [4]=0b( 11)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=dc(220)
+18:04:17 [EF02] · same    aa0da021000081000b00bf10e002d1dcee  (17B)
+18:04:17 [EF02] · same    aa0da021000081000b00bf10e002d1dcee  (17B)
+18:04:18 [EF02] · same    aa0da021000081000b00bf10e002d1dcee  (17B)
+18:04:18 [EF02] · same    aa0da021000081000b00bf10e002d1dcee  (17B)
+18:04:19 [EF02] · same    aa0da021000081000b00bf10e002d1dcee  (17B)
+18:04:19 [EF02] · same    aa0da021000081000b00bf10e002d1dcee  (17B)
+18:04:20 [EF02] · same    aa0da021000081000b00bf10e002d1dcee  (17B)
+18:04:20 [EF02] · same    aa0da021000081000b00bf10e002d1dcee  (17B)
+18:04:21 [EF02] · same    aa0da021000081000b00bf10e002d1dcee  (17B)
+18:04:21 [EF02] △ CHANGE  aa0da021000081000a00bf10e002d1dbee  (17B)
+  byte[08]: 0b → 0a
+  byte[15]: dc → db
+  cmd=a021  payload=000081000a00bf10e002d1db  sum=b6
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=81(129)
+    [3]=00(  0)
+    [4]=0a( 10)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=db(219)
+18:04:22 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:22 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:23 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:23 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:24 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:24 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:25 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:25 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:26 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:26 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:27 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:27 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:28 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:28 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:29 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:29 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:30 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:30 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:31 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:31 [EF02] △ CHANGE  aa0da021000081000e00bf10e002d1dfee  (17B)
+  byte[08]: 0a → 0e
+  byte[15]: db → df
+  cmd=a021  payload=000081000e00bf10e002d1df  sum=be
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=81(129)
+    [3]=00(  0)
+    [4]=0e( 14)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=df(223)
+18:04:32 [EF02] · same    aa0da021000081000e00bf10e002d1dfee  (17B)
+18:04:32 [EF02] · same    aa0da021000081000e00bf10e002d1dfee  (17B)
+18:04:33 [EF02] · same    aa0da021000081000e00bf10e002d1dfee  (17B)
+18:04:33 [EF02] · same    aa0da021000081000e00bf10e002d1dfee  (17B)
+18:04:34 [EF02] · same    aa0da021000081000e00bf10e002d1dfee  (17B)
+18:04:34 [EF02] · same    aa0da021000081000e00bf10e002d1dfee  (17B)
+18:04:35 [EF02] · same    aa0da021000081000e00bf10e002d1dfee  (17B)
+18:04:35 [EF02] · same    aa0da021000081000e00bf10e002d1dfee  (17B)
+18:04:36 [EF02] · same    aa0da021000081000e00bf10e002d1dfee  (17B)
+18:04:36 [EF02] △ CHANGE  aa0da021000081000a00bf10e002d1dbee  (17B)
+  byte[08]: 0e → 0a
+  byte[15]: df → db
+  cmd=a021  payload=000081000a00bf10e002d1db  sum=b6
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=81(129)
+    [3]=00(  0)
+    [4]=0a( 10)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=db(219)
+18:04:37 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:37 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:38 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:38 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:39 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+18:04:39 [EF02] · same    aa0da021000081000a00bf10e002d1dbee  (17B)
+
+────────────────────────────────────────────────────
+18:04:39 ► SEND: Night Mode ON  (aa030600010aee)
+────────────────────────────────────────────────────
+18:04:39 [EF02] △ CHANGE  aa0da0210000c1000a00bf10e002d11bee  (17B)
+  byte[06]: 81 → c1
+  byte[15]: db → 1b
+  cmd=a021  payload=0000c1000a00bf10e002d11b  sum=36
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=c1(193)
+    [3]=00(  0)
+    [4]=0a( 10)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=1b( 27)
+18:04:40 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:04:40 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:04:41 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:04:41 [EF02] △ CHANGE  aa0da0210000c1000c00bf10e002d11dee  (17B)
+  byte[08]: 0a → 0c
+  byte[15]: 1b → 1d
+  cmd=a021  payload=0000c1000c00bf10e002d11d  sum=3a
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=c1(193)
+    [3]=00(  0)
+    [4]=0c( 12)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=1d( 29)
+18:04:42 [EF02] · same    aa0da0210000c1000c00bf10e002d11dee  (17B)
+18:04:42 [EF02] · same    aa0da0210000c1000c00bf10e002d11dee  (17B)
+18:04:43 [EF02] · same    aa0da0210000c1000c00bf10e002d11dee  (17B)
+18:04:43 [EF02] · same    aa0da0210000c1000c00bf10e002d11dee  (17B)
+18:04:44 [EF02] · same    aa0da0210000c1000c00bf10e002d11dee  (17B)
+18:04:44 [EF02] · same    aa0da0210000c1000c00bf10e002d11dee  (17B)
+18:04:45 [EF02] · same    aa0da0210000c1000c00bf10e002d11dee  (17B)
+18:04:45 [EF02] · same    aa0da0210000c1000c00bf10e002d11dee  (17B)
+18:04:46 [EF02] · same    aa0da0210000c1000c00bf10e002d11dee  (17B)
+18:04:46 [EF02] △ CHANGE  aa0da0210000c1000a00bf10e002d11bee  (17B)
+  byte[08]: 0c → 0a
+  byte[15]: 1d → 1b
+  cmd=a021  payload=0000c1000a00bf10e002d11b  sum=36
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=c1(193)
+    [3]=00(  0)
+    [4]=0a( 10)
+    [5]=00(  0)
+    [6]=bf(191)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=1b( 27)
+18:04:47 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:04:47 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:04:48 [EF02] · same    aa0da0210000c1000a00bf10e002d11bee  (17B)
+18:04:48 [EF02] △ CHANGE  aa0da0210000c1000a00be10e002d11aee  (17B)
+  byte[10]: bf → be
+  byte[15]: 1b → 1a
+  cmd=a021  payload=0000c1000a00be10e002d11a  sum=34
+    [0]=00(  0)
+    [1]=00(  0)
+    [2]=c1(193)
+    [3]=00(  0)
+    [4]=0a( 10)
+    [5]=00(  0)
+    [6]=be(190)
+    [7]=10( 16)
+    [8]=e0(224)
+    [9]=02(  2)
+    [10]=d1(209)
+    [11]=1a( 26)
+18:04:49 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:49 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:50 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:50 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:51 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:51 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:52 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:52 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:53 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:53 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:54 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:54 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:55 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:55 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:56 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:56 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:57 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:57 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:58 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:58 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:59 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:04:59 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:00 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:00 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:01 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:01 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:02 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:02 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:03 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:03 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+
+────────────────────────────────────────────────────
+18:05:03 ► SEND: Night Mode OFF  (aa03af0001b3ee)
+────────────────────────────────────────────────────
+18:05:04 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:04 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:05 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:05 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:06 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:06 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:07 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:07 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:08 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:08 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:09 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:09 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:10 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:10 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:11 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:11 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:11 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:12 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:13 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:13 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:14 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:14 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:15 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:15 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:16 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:16 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:16 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:17 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:18 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:18 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:19 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:19 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:20 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:20 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:20 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+18:05:21 [EF02] · same    aa0da0210000c1000a00be10e002d11aee  (17B)
+Beende Session.
