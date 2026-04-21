@@ -1,0 +1,3 @@
+=== BLE Analyze Session 2026-04-20 15:05:45 ===
+15:05:46 Verbindungsfehler: ('Bluetooth is not authorized for an unknown reason. Check macOS privacy settings.', <BleakBluetoothNotAvailableReason.DENIED_BY_UNKNOWN: 6>) – retry in 3s
+15:05:49 Verbindungsfehler: ('Bluetooth is not authorized for an unknown reason. Check macOS privacy settings.', <BleakBluetoothNotAvailableReason.DENIED_BY_UNKNOWN: 6>) – retry in 3s

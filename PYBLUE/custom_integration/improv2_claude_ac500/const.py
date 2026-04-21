@@ -1,0 +1,49 @@
+"""Constants for Soehnle Airfresh Clean Connect 500."""
+
+DOMAIN = "soehnle_ac500"
+
+UUID_WRITE = "0000EF01-0000-1000-8000-00805F9B34FB"
+UUID_EF02  = "0000EF02-0000-1000-8000-00805F9B34FB"
+UUID_EF03  = "0000EF03-0000-1000-8000-00805F9B34FB"
+UUID_EF04  = "0000EF04-0000-1000-8000-00805F9B34FB"
+
+# ── EF02 Frame Layout ────────────────────────────────────────────────────────
+# aa 0d a0 21 | p0   p1   p2   p3   p4   p5   p6   p7   p8   p9   p10  p11 | ee
+#               spd  tmr  flg  00   aqi  00   adc  10   e0   02   d5   chk
+#
+# p[0]  fan speed  : 0=Spd1  1=Spd2  2=Spd3  3=Spd4
+# p[1]  timer hrs  : 0=OFF   2=2h    4=4h    8=8h
+# p[2]  flags      : bit0=Power bit1=UVC bit2=Timer bit5=Auto bit6+7=Night
+# p[4]  AQI sensor : 0–255
+# p[11] checksum   : (p0+p1+p2+p4+p6+p10+0xC0) & 0xFF  ← verified 250 packets
+
+FLAG_POWER = 0x01
+FLAG_UVC   = 0x02
+FLAG_TIMER = 0x04
+FLAG_AUTO  = 0x20
+FLAG_NIGHT = 0xC0
+
+SPEED_MAP     = {0: "speed_1", 1: "speed_2", 2: "speed_3", 3: "speed_4"}
+SPEED_MAP_INV = {v: k for k, v in SPEED_MAP.items()}
+PRESET_MODES  = ["speed_1", "speed_2", "speed_3", "speed_4", "auto"]
+
+TIMER_HOURS   = {0: 0, 2: 2, 4: 4, 8: 8}   # p[1] value → hours
+
+COMMANDS = {
+    "power_on":    "aa0301000105ee",
+    "power_off":   "aa0301000004ee",
+    "uvc_on":      "aa0303000107ee",
+    "uvc_off":     "aa0303000006ee",
+    "night_on":    "aa030600010aee",
+    "night_off":   "aa03af0001b3ee",
+    "speed_1":     "aa0302000005ee",
+    "speed_2":     "aa0302000106ee",
+    "speed_3":     "aa0302000207ee",
+    "speed_4":     "aa0302000308ee",
+    "auto_on":     "aa0305000109ee",
+    "auto_off":    "aa0305000008ee",
+    "timer_off":   "aa0304000007ee",
+    "timer_2h":    "aa0304000209ee",
+    "timer_4h":    "aa030400040bee",
+    "timer_8h":    "aa030400080fee",
+}
