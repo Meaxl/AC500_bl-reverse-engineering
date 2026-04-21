@@ -1,0 +1,214 @@
+=== BLE Analyze Session 2026-04-21 10:30:10 ===
+10:30:13 Verbunden & Notify aktiv.
+10:30:13 [EF04] △ CHANGE  01  (1B)
+  (first packet)
+10:30:13 [EF02] △ CHANGE  aa0da021000081003300b710e002d702ee  (17B)
+  (first packet)
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=51  chk=✓
+10:30:13 [EF04] △ CHANGE  006d00b7ffffffff002400b7  (12B)
+  byte[00]: 01 → 00
+  byte[01]: -- → 6d
+  byte[02]: -- → 00
+  byte[03]: -- → b7
+  byte[04]: -- → ff
+  byte[05]: -- → ff
+  byte[06]: -- → ff
+  byte[07]: -- → ff
+  byte[08]: -- → 00
+  byte[09]: -- → 24
+  byte[10]: -- → 00
+  byte[11]: -- → b7
+  uint16_be: [109, 183, 65535, 65535, 36, 183]
+  uint16_le: [27904, 46848, 65535, 65535, 9216, 46848]
+  bytes_dec: [0, 109, 0, 183, 255, 255, 255, 255, 0, 36, 0, 183]
+10:30:13 [EF04] △ CHANGE  ff  (1B)
+  byte[00]: 00 → ff
+  byte[01]: 6d → --
+  byte[02]: 00 → --
+  byte[03]: b7 → --
+  byte[04]: ff → --
+  byte[05]: ff → --
+  byte[06]: ff → --
+  byte[07]: ff → --
+  byte[08]: 00 → --
+  byte[09]: 24 → --
+  byte[10]: 00 → --
+  byte[11]: b7 → --
+10:30:14 [EF02] · same    aa0da021000081003300b710e002d702ee  (17B)
+10:30:14 [EF02] △ CHANGE  aa0da021000081003300b610e002d701ee  (17B)
+  byte[10]: b7 → b6
+  byte[15]: 02 → 01
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=51  chk=✓
+10:30:15 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:30:15 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:30:16 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:30:16 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:30:17 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:30:17 [EF02] △ CHANGE  aa0da021000081003400b610e002d702ee  (17B)
+  byte[08]: 33 → 34
+  byte[15]: 01 → 02
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=52  chk=✓
+10:30:18 [EF02] · same    aa0da021000081003400b610e002d702ee  (17B)
+10:30:18 [EF02] △ CHANGE  aa0da021000081003400b710e002d703ee  (17B)
+  byte[10]: b6 → b7
+  byte[15]: 02 → 03
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=52  chk=✓
+10:30:19 [EF02] · same    aa0da021000081003400b710e002d703ee  (17B)
+10:30:19 [EF02] · same    aa0da021000081003400b710e002d703ee  (17B)
+10:30:20 [EF02] · same    aa0da021000081003400b710e002d703ee  (17B)
+10:30:20 [EF02] △ CHANGE  aa0da021000081003400b610e002d702ee  (17B)
+  byte[10]: b7 → b6
+  byte[15]: 03 → 02
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=52  chk=✓
+10:30:21 [EF02] · same    aa0da021000081003400b610e002d702ee  (17B)
+10:30:21 [EF02] △ CHANGE  aa0da021000081003400b710e002d703ee  (17B)
+  byte[10]: b6 → b7
+  byte[15]: 02 → 03
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=52  chk=✓
+10:30:22 [EF02] · same    aa0da021000081003400b710e002d703ee  (17B)
+10:30:22 [EF02] △ CHANGE  aa0da021000081003700b710e002d706ee  (17B)
+  byte[08]: 34 → 37
+  byte[15]: 03 → 06
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=55  chk=✓
+10:30:23 [EF02] · same    aa0da021000081003700b710e002d706ee  (17B)
+10:30:23 [EF02] · same    aa0da021000081003700b710e002d706ee  (17B)
+10:30:24 [EF02] · same    aa0da021000081003700b710e002d706ee  (17B)
+10:30:24 [EF02] · same    aa0da021000081003700b710e002d706ee  (17B)
+10:30:25 [EF02] · same    aa0da021000081003700b710e002d706ee  (17B)
+10:30:25 [EF02] · same    aa0da021000081003700b710e002d706ee  (17B)
+10:30:26 [EF02] · same    aa0da021000081003700b710e002d706ee  (17B)
+10:30:26 [EF02] · same    aa0da021000081003700b710e002d706ee  (17B)
+10:30:27 [EF02] · same    aa0da021000081003700b710e002d706ee  (17B)
+10:30:27 [EF02] △ CHANGE  aa0da021000081003900b710e002d708ee  (17B)
+  byte[08]: 37 → 39
+  byte[15]: 06 → 08
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=57  chk=✓
+
+10:30:37 ⚠ Kein Notify seit >10s – reconnecting...
+10:30:37 Reconnect in 2s...
+10:30:47 [EF02] △ CHANGE  aa0da021000081003a00b610e002d708ee  (17B)
+  byte[08]: 39 → 3a
+  byte[10]: b7 → b6
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=58  chk=✓
+10:30:47 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:47 Verbunden & Notify aktiv.
+10:30:47 [EF04] △ CHANGE  01  (1B)
+  byte[00]: ff → 01
+10:30:47 [EF04] △ CHANGE  006d00b7ffffffff002400b7  (12B)
+  byte[00]: 01 → 00
+  byte[01]: -- → 6d
+  byte[02]: -- → 00
+  byte[03]: -- → b7
+  byte[04]: -- → ff
+  byte[05]: -- → ff
+  byte[06]: -- → ff
+  byte[07]: -- → ff
+  byte[08]: -- → 00
+  byte[09]: -- → 24
+  byte[10]: -- → 00
+  byte[11]: -- → b7
+  uint16_be: [109, 183, 65535, 65535, 36, 183]
+  uint16_le: [27904, 46848, 65535, 65535, 9216, 46848]
+  bytes_dec: [0, 109, 0, 183, 255, 255, 255, 255, 0, 36, 0, 183]
+10:30:47 [EF04] △ CHANGE  ff  (1B)
+  byte[00]: 00 → ff
+  byte[01]: 6d → --
+  byte[02]: 00 → --
+  byte[03]: b7 → --
+  byte[04]: ff → --
+  byte[05]: ff → --
+  byte[06]: ff → --
+  byte[07]: ff → --
+  byte[08]: 00 → --
+  byte[09]: 24 → --
+  byte[10]: 00 → --
+  byte[11]: b7 → --
+10:30:47 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:48 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:48 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:49 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:49 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:50 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:50 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:51 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:51 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:52 [EF02] · same    aa0da021000081003a00b610e002d708ee  (17B)
+10:30:52 [EF02] △ CHANGE  aa0da021000081003700b610e002d705ee  (17B)
+  byte[08]: 3a → 37
+  byte[15]: 08 → 05
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=55  chk=✓
+10:30:53 [EF02] · same    aa0da021000081003700b610e002d705ee  (17B)
+10:30:53 [EF02] · same    aa0da021000081003700b610e002d705ee  (17B)
+10:30:54 [EF02] · same    aa0da021000081003700b610e002d705ee  (17B)
+10:30:54 [EF02] · same    aa0da021000081003700b610e002d705ee  (17B)
+10:30:55 [EF02] · same    aa0da021000081003700b610e002d705ee  (17B)
+10:30:55 [EF02] · same    aa0da021000081003700b610e002d705ee  (17B)
+10:30:56 [EF02] · same    aa0da021000081003700b610e002d705ee  (17B)
+10:30:56 [EF02] · same    aa0da021000081003700b610e002d705ee  (17B)
+10:30:57 [EF02] · same    aa0da021000081003700b610e002d705ee  (17B)
+10:30:57 [EF02] △ CHANGE  aa0da021000081003300b610e002d701ee  (17B)
+  byte[08]: 37 → 33
+  byte[15]: 05 → 01
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=51  chk=✓
+10:30:58 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:30:58 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:30:59 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:30:59 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:31:00 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:31:00 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:31:01 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+10:31:01 [EF02] · same    aa0da021000081003300b610e002d701ee  (17B)
+
+10:31:13 ⚠ Kein Notify seit >10s – reconnecting...
+10:31:13 Reconnect in 2s...
+10:31:17 [EF02] △ CHANGE  aa0da021000081002a00b610e002d7f8ee  (17B)
+  byte[08]: 33 → 2a
+  byte[15]: 01 → f8
+  Power=ON   Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=42  chk=✓
+10:31:17 [EF02] · same    aa0da021000081002a00b610e002d7f8ee  (17B)
+10:31:17 Verbunden & Notify aktiv.
+10:31:17 [EF04] △ CHANGE  01  (1B)
+  byte[00]: ff → 01
+10:31:18 [EF04] △ CHANGE  006d00b7ffffffff002400b7  (12B)
+  byte[00]: 01 → 00
+  byte[01]: -- → 6d
+  byte[02]: -- → 00
+  byte[03]: -- → b7
+  byte[04]: -- → ff
+  byte[05]: -- → ff
+  byte[06]: -- → ff
+  byte[07]: -- → ff
+  byte[08]: -- → 00
+  byte[09]: -- → 24
+  byte[10]: -- → 00
+  byte[11]: -- → b7
+  uint16_be: [109, 183, 65535, 65535, 36, 183]
+  uint16_le: [27904, 46848, 65535, 65535, 9216, 46848]
+  bytes_dec: [0, 109, 0, 183, 255, 255, 255, 255, 0, 36, 0, 183]
+10:31:18 [EF04] △ CHANGE  ff  (1B)
+  byte[00]: 00 → ff
+  byte[01]: 6d → --
+  byte[02]: 00 → --
+  byte[03]: b7 → --
+  byte[04]: ff → --
+  byte[05]: ff → --
+  byte[06]: ff → --
+  byte[07]: ff → --
+  byte[08]: 00 → --
+  byte[09]: 24 → --
+  byte[10]: 00 → --
+  byte[11]: b7 → --
+10:31:18 [EF02] △ CHANGE  aa0da021000080002a00b610e002d7f7ee  (17B)
+  byte[06]: 81 → 80
+  byte[15]: f8 → f7
+  Power=OFF  Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=42  chk=✓
+10:31:18 [EF02] · same    aa0da021000080002a00b610e002d7f7ee  (17B)
+10:31:18 [EF02] △ CHANGE  aa0da021000080002800b610e002d7f5ee  (17B)
+  byte[08]: 2a → 28
+  byte[15]: f7 → f5
+  Power=OFF  Speed=Spd1  UVC=OFF  Night=ON   Auto=OFF  Timer=OFF  AQI=40  chk=✓
+10:31:19 [EF02] · same    aa0da021000080002800b610e002d7f5ee  (17B)
+10:31:19 [EF02] · same    aa0da021000080002800b610e002d7f5ee  (17B)
+10:31:20 [EF02] · same    aa0da021000080002800b610e002d7f5ee  (17B)
+10:31:20 [EF02] · same    aa0da021000080002800b610e002d7f5ee  (17B)
+Beende Session.
