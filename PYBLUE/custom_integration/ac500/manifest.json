@@ -1,9 +1,0 @@
-{
-    "domain": "ac500",
-    "name": "Airfresh Clean Connect 500",
-    "requirements": [
-        "bleak==0.14.1"
-    ],
-    "iot_class": "assumed_state",
-    "version": "0.1.0"
-}
